@@ -13,8 +13,6 @@
 		0446DF801F35075000D1F450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0446DF7E1F35075000D1F450 /* Main.storyboard */; };
 		0446DF821F35075000D1F450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0446DF811F35075000D1F450 /* Assets.xcassets */; };
 		0446DF851F35075000D1F450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0446DF831F35075000D1F450 /* LaunchScreen.storyboard */; };
-		0446DF901F35075000D1F450 /* PaginatedMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DF8F1F35075000D1F450 /* PaginatedMVVMTests.m */; };
-		0446DF9B1F35075000D1F450 /* PaginatedMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DF9A1F35075000D1F450 /* PaginatedMVVMUITests.m */; };
 		0446DFAB1F35087D00D1F450 /* EntityList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DFAA1F35087D00D1F450 /* EntityList.m */; };
 		0446DFAE1F35091A00D1F450 /* BaseRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DFAD1F35091A00D1F450 /* BaseRepository.m */; };
 		0446DFB31F350C9600D1F450 /* RepositoryToListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DFB21F350C9600D1F450 /* RepositoryToListInteractor.m */; };
@@ -22,17 +20,11 @@
 		0446DFB91F35364F00D1F450 /* SimulationRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DFB81F35364F00D1F450 /* SimulationRepository.m */; };
 		0446DFBD1F35446E00D1F450 /* BaseListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DFBC1F35446E00D1F450 /* BaseListViewModel.m */; };
 		0446DFC01F35B32700D1F450 /* PaginatedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446DFBF1F35B32700D1F450 /* PaginatedViewModel.m */; };
+		0446E00C1F3612CB00D1F450 /* PaginatedMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446E00B1F3612CB00D1F450 /* PaginatedMVVMTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0446DF8C1F35075000D1F450 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0446DF6A1F35075000D1F450 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0446DF711F35075000D1F450;
-			remoteInfo = PaginatedMVVM;
-		};
-		0446DF971F35075000D1F450 /* PBXContainerItemProxy */ = {
+		0446E00E1F3612CB00D1F450 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0446DF6A1F35075000D1F450 /* Project object */;
 			proxyType = 1;
@@ -52,12 +44,6 @@
 		0446DF811F35075000D1F450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0446DF841F35075000D1F450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0446DF861F35075000D1F450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0446DF8B1F35075000D1F450 /* PaginatedMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginatedMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0446DF8F1F35075000D1F450 /* PaginatedMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaginatedMVVMTests.m; sourceTree = "<group>"; };
-		0446DF911F35075000D1F450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0446DF961F35075000D1F450 /* PaginatedMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginatedMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0446DF9A1F35075000D1F450 /* PaginatedMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaginatedMVVMUITests.m; sourceTree = "<group>"; };
-		0446DF9C1F35075000D1F450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0446DFA91F35087D00D1F450 /* EntityList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityList.h; sourceTree = "<group>"; };
 		0446DFAA1F35087D00D1F450 /* EntityList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityList.m; sourceTree = "<group>"; };
 		0446DFAC1F35091A00D1F450 /* BaseRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRepository.h; sourceTree = "<group>"; };
@@ -72,6 +58,9 @@
 		0446DFBC1F35446E00D1F450 /* BaseListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewModel.m; sourceTree = "<group>"; };
 		0446DFBE1F35B32700D1F450 /* PaginatedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginatedViewModel.h; sourceTree = "<group>"; };
 		0446DFBF1F35B32700D1F450 /* PaginatedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaginatedViewModel.m; sourceTree = "<group>"; };
+		0446E0091F3612CB00D1F450 /* PaginatedMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginatedMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446E00B1F3612CB00D1F450 /* PaginatedMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaginatedMVVMTests.m; sourceTree = "<group>"; };
+		0446E00D1F3612CB00D1F450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,14 +71,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0446DF881F35075000D1F450 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0446DF931F35075000D1F450 /* Frameworks */ = {
+		0446E0061F3612CB00D1F450 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -107,8 +89,7 @@
 				0446DFAF1F35091E00D1F450 /* Repositories */,
 				0446DFA81F35075700D1F450 /* EntityList */,
 				0446DF741F35075000D1F450 /* PaginatedMVVM */,
-				0446DF8E1F35075000D1F450 /* PaginatedMVVMTests */,
-				0446DF991F35075000D1F450 /* PaginatedMVVMUITests */,
+				0446E00A1F3612CB00D1F450 /* PaginatedMVVMTests */,
 				0446DF731F35075000D1F450 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,8 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				0446DF721F35075000D1F450 /* PaginatedMVVM.app */,
-				0446DF8B1F35075000D1F450 /* PaginatedMVVMTests.xctest */,
-				0446DF961F35075000D1F450 /* PaginatedMVVMUITests.xctest */,
+				0446E0091F3612CB00D1F450 /* PaginatedMVVMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,24 +125,6 @@
 				0446DF761F35075000D1F450 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0446DF8E1F35075000D1F450 /* PaginatedMVVMTests */ = {
-			isa = PBXGroup;
-			children = (
-				0446DF8F1F35075000D1F450 /* PaginatedMVVMTests.m */,
-				0446DF911F35075000D1F450 /* Info.plist */,
-			);
-			path = PaginatedMVVMTests;
-			sourceTree = "<group>";
-		};
-		0446DF991F35075000D1F450 /* PaginatedMVVMUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0446DF9A1F35075000D1F450 /* PaginatedMVVMUITests.m */,
-				0446DF9C1F35075000D1F450 /* Info.plist */,
-			);
-			path = PaginatedMVVMUITests;
 			sourceTree = "<group>";
 		};
 		0446DFA81F35075700D1F450 /* EntityList */ = {
@@ -207,6 +169,15 @@
 			name = ViewModels;
 			sourceTree = "<group>";
 		};
+		0446E00A1F3612CB00D1F450 /* PaginatedMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				0446E00B1F3612CB00D1F450 /* PaginatedMVVMTests.m */,
+				0446E00D1F3612CB00D1F450 /* Info.plist */,
+			);
+			path = PaginatedMVVMTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,41 +198,23 @@
 			productReference = 0446DF721F35075000D1F450 /* PaginatedMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0446DF8A1F35075000D1F450 /* PaginatedMVVMTests */ = {
+		0446E0081F3612CB00D1F450 /* PaginatedMVVMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0446DFA21F35075000D1F450 /* Build configuration list for PBXNativeTarget "PaginatedMVVMTests" */;
+			buildConfigurationList = 0446E0101F3612CB00D1F450 /* Build configuration list for PBXNativeTarget "PaginatedMVVMTests" */;
 			buildPhases = (
-				0446DF871F35075000D1F450 /* Sources */,
-				0446DF881F35075000D1F450 /* Frameworks */,
-				0446DF891F35075000D1F450 /* Resources */,
+				0446E0051F3612CB00D1F450 /* Sources */,
+				0446E0061F3612CB00D1F450 /* Frameworks */,
+				0446E0071F3612CB00D1F450 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0446DF8D1F35075000D1F450 /* PBXTargetDependency */,
+				0446E00F1F3612CB00D1F450 /* PBXTargetDependency */,
 			);
 			name = PaginatedMVVMTests;
 			productName = PaginatedMVVMTests;
-			productReference = 0446DF8B1F35075000D1F450 /* PaginatedMVVMTests.xctest */;
+			productReference = 0446E0091F3612CB00D1F450 /* PaginatedMVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0446DF951F35075000D1F450 /* PaginatedMVVMUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0446DFA51F35075000D1F450 /* Build configuration list for PBXNativeTarget "PaginatedMVVMUITests" */;
-			buildPhases = (
-				0446DF921F35075000D1F450 /* Sources */,
-				0446DF931F35075000D1F450 /* Frameworks */,
-				0446DF941F35075000D1F450 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0446DF981F35075000D1F450 /* PBXTargetDependency */,
-			);
-			name = PaginatedMVVMUITests;
-			productName = PaginatedMVVMUITests;
-			productReference = 0446DF961F35075000D1F450 /* PaginatedMVVMUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -276,12 +229,7 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
-					0446DF8A1F35075000D1F450 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0446DF711F35075000D1F450;
-					};
-					0446DF951F35075000D1F450 = {
+					0446E0081F3612CB00D1F450 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0446DF711F35075000D1F450;
@@ -302,8 +250,7 @@
 			projectRoot = "";
 			targets = (
 				0446DF711F35075000D1F450 /* PaginatedMVVM */,
-				0446DF8A1F35075000D1F450 /* PaginatedMVVMTests */,
-				0446DF951F35075000D1F450 /* PaginatedMVVMUITests */,
+				0446E0081F3612CB00D1F450 /* PaginatedMVVMTests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,14 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0446DF891F35075000D1F450 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0446DF941F35075000D1F450 /* Resources */ = {
+		0446E0071F3612CB00D1F450 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,34 +293,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0446DF871F35075000D1F450 /* Sources */ = {
+		0446E0051F3612CB00D1F450 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0446DF901F35075000D1F450 /* PaginatedMVVMTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0446DF921F35075000D1F450 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0446DF9B1F35075000D1F450 /* PaginatedMVVMUITests.m in Sources */,
+				0446E00C1F3612CB00D1F450 /* PaginatedMVVMTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0446DF8D1F35075000D1F450 /* PBXTargetDependency */ = {
+		0446E00F1F3612CB00D1F450 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0446DF711F35075000D1F450 /* PaginatedMVVM */;
-			targetProxy = 0446DF8C1F35075000D1F450 /* PBXContainerItemProxy */;
-		};
-		0446DF981F35075000D1F450 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0446DF711F35075000D1F450 /* PaginatedMVVM */;
-			targetProxy = 0446DF971F35075000D1F450 /* PBXContainerItemProxy */;
+			targetProxy = 0446E00E1F3612CB00D1F450 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,7 +445,7 @@
 			};
 			name = Release;
 		};
-		0446DFA31F35075000D1F450 /* Debug */ = {
+		0446E0111F3612CB00D1F450 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		0446DFA41F35075000D1F450 /* Release */ = {
+		0446E0121F3612CB00D1F450 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,28 +466,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.PaginatedMVVMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginatedMVVM.app/PaginatedMVVM";
-			};
-			name = Release;
-		};
-		0446DFA61F35075000D1F450 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PaginatedMVVMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.PaginatedMVVMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PaginatedMVVM;
-			};
-			name = Debug;
-		};
-		0446DFA71F35075000D1F450 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PaginatedMVVMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.PaginatedMVVMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PaginatedMVVM;
 			};
 			name = Release;
 		};
@@ -583,20 +488,13 @@
 				0446DFA11F35075000D1F450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0446DFA21F35075000D1F450 /* Build configuration list for PBXNativeTarget "PaginatedMVVMTests" */ = {
+		0446E0101F3612CB00D1F450 /* Build configuration list for PBXNativeTarget "PaginatedMVVMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0446DFA31F35075000D1F450 /* Debug */,
-				0446DFA41F35075000D1F450 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0446DFA51F35075000D1F450 /* Build configuration list for PBXNativeTarget "PaginatedMVVMUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0446DFA61F35075000D1F450 /* Debug */,
-				0446DFA71F35075000D1F450 /* Release */,
+				0446E0111F3612CB00D1F450 /* Debug */,
+				0446E0121F3612CB00D1F450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
